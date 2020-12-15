@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+
+    <com.orange.volunteers.history.HistoryTabsLayout
+        android:id="@+id/optionTabs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        app:optionsList="@array/history_options_tab_entries" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/history_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clipToPadding="false"
+            android:clipChildren="false"
+            android:overScrollMode="never">
+
+        </androidx.viewpager.widget.ViewPager>
+
+</LinearLayout>

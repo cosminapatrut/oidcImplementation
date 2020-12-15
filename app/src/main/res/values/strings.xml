@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">Volunteers</string>
+    <string name="actionbar_txt"> </string>
+
+    <!--    Home Screen-->
+    <string name="login_btn_text">Login</string>
+    <string name="register_btn_text">Create an account</string>
+    <string name="home_rv_item_title">#PentruMaine</string>
+    <string name="home_rv_item_subtitle">Devino voluntar in campania noastra pentru a ajuta prima linie in lupta cu COVID-19</string>
+
+    <!--    Login Screen-->
+    <string name="login_proceed">Proceed with your</string>
+    <string name="login_title">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forgot_password"><u>Forgot password?</u></string>
+    <string name="register_btn_text_underline"><u>Create an account</u></string>
+
+    <!--    Register Screen-->
+    <string name="create_new">Create your new</string>
+    <string name="account">Account</string>
+    <string name="login_underlined"><u>Login</u></string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="agreement">Sunt de acord cu</string>
+    <string name="terms_agreement">Termenii si conditiile</string>
+    <string name="create_acountc">Create account</string>
+
+    <!--    User Screen-->
+    <string name="user_profile_text">User profile</string>
+    <string name="notifications_text">Allow push notifications</string>
+    <string name="location_text">Allow user location</string>
+    <string name="domains_text">Domains of interest</string>
+    <string name="edit"><u>Edit</u></string>
+    <string name="save">Save</string>
+    <string name="logout"><u>Logout</u></string>
+    <string name="delete_account"><u>Delete account</u></string>
+
+    <!--    Domains Screen-->
+    <string name="domains_subtext">Choose domains of interests for your profile…</string>
+
+
+    <string name="app_name_short">AppAuth</string>
+    <string name="auth_granted">Authorization granted</string>
+    <string name="intro_header">OpenID AppAuth Demo</string>
+    <string name="openid_logo_content_description">AppAuth Logo</string>
+    <string name="refresh_token">Refresh token</string>
+    <string name="access_token_expires_at">Access token expires at: %s</string>
+    <string name="no_access_token_returned">No access token returned</string>
+    <string name="no_refresh_token_returned">No refresh token returned</string>
+    <string name="refresh_token_returned">Refresh token returned</string>
+    <string name="no_id_token_returned">No ID token returned</string>
+    <string name="id_token_returned">ID token returned</string>
+    <string name="view_profile">View user info</string>
+    <string name="userinfo_profile_content_description">User profile picture</string>
+    <string name="login_hint_value">Account ID (e.g. test@example.com)</string>
+    <string name="account_id_description">The Account ID is optional. If specified, it is transmitted as a login_hint parameter in the authorization request.</string>
+    <string name="auth_options">Authorization options:</string>
+    <string name="browser_selector_label">Use browser:</string>
+    <string name="browser_icon_contentDescription">Browser app icon</string>
+    <string name="browser_appauth_default_label">AppAuth heuristic selection</string>
+    <string name="custom_tab_label">"%1$s (custom tab)"</string>
+    <string name="retry_label">Retry</string>
+    <string name="not_authorized">Not authorized</string>
+    <string name="start_authorization">OIDC auth</string>
+    <string name="reauthorize">Reauthorize</string>
+    <string name="sign_out">Sign out</string>
+    <string name="no_access_token_expiry">Access time has no defined expiry</string>
+    <string name="access_token_expired">Access token has expired</string>
+    <string name="auth_settings">Authorization settings in use:</string>
+    <string name="use_pending_intents">Use PendingIntent\'s for completion</string>
+
+    <!--    Campaign Details Screen-->
+    <string name="start_date_end_date">%1$s - %2$s</string>
+    <string name="enrolled_capacity">%1$d / %2$d</string>
+    <string name="address">%1$s</string>
+    <string name="city_street_details">%1$s, %2$s, %3$s</string>
+
+    <!--History Campaign Tab Options-->
+    <array name="history_options_tab_entries">
+        <item>Campanii active</item>
+        <item>Istoric campanii</item>
+    </array>
+
+    <!--    History Campaign Date-->
+    <string name="start_date">%1$s</string>
+    <!--    History Campaign Numbers-->
+    <string name="history_campaigns_plural">%1$s campanii</string>
+    <string name="history_campaigns_singular">%1$s campanie</string>
+    <!--    Domains Screen-->
+    <string name="attend_campaign">Participa</string>
+    <string name="quit_campaign">Renunta</string>
+
+<!--    Info Screen-->
+    <string name="terms"><u>Termeni si conditii</u></string>
+    <string name="privacy"><u>Politica de confidentialitate</u></string>
+    <string name="trust_badge"><u>Trust badge</u></string>
+
+    <!-- TRUST BADGE -->
+    <string name="otb_home_subtitle">Descoperă și controlează datele cu caracter personal utilizate de aplicație</string>
+    <string name="otb_home_header_subtitle">Cu Trust Badge, ai informații transparente despre aplicațiile tale.</string>
+    <string name="otb_home_permissions_title">Datele pe care le poate accesa aplicația</string>
+    <string name="otb_home_app_data_title">Date din utilizarea aplicației</string>
+    <string name="otb_permission_location_title">Locație</string>
+    <string name="otb_permission_contact_title">Contacte</string>
+    <string name="otb_permission_storage_title">Memorie</string>
+    <string name="otb_permission_calendar_title">Calendar</string>
+    <string name="otb_permission_phone_title">Telefon</string>
+    <string name="otb_app_data_improvement_program_title">Program perfecționare</string>
+    <string name="otb_toggle_button_granted">Da</string>
+    <string name="otb_toggle_button_not_granted">Nu</string>
+    <string name="otb_data_button_explanation">Permisiunile aplicației le regăsești în setările telefonului mobil.</string>
+    <string name="otb_data_button_text">MERGI LA SETĂRI</string>
+    <string name="otb_home_more_detail">VEZI MAI MULTE</string>
+    <string name="info_analytics">Aplicatia detecteaza si colecteaza informatii statistice cu caracter non-personal si poate trimite aceste informatii pentru analiza statistica, cu scopul de a imbunatati constant serviciile noastre. Aceste informatii sunt colectate in mod anonim si procesate respectand legile aplicabile.</string>
+    <string name="info_location_description">Pentru Maine va avea acces la informatii despre locatia dispozitivului tau, in scopul imbunatatirii aplicatiei.</string>
+    <string name="info_camera_description">Aplicatia poate folosi camera telefonului pentru a scana coduri QR sau cartea ta de identitate. Fotografiile sau filmarile video nu sunt adaugate sau stocate in dispozitivul tau mobil, iar aplicatia nu solicita acces la fotografiile sau imaginile video din telefonul tau.</string>
+    <string name="info_phone_description">Pentru a imbunatati gradul de securitate al aplicatiei, Pentru Maine va avea acces la informatii despre dispozitivul tau, precum identificatorul dispozitivului, tipul de sistem de operare, identificatorul tastaturii, identificatorul ecranului home, limba folosita, tipul de criptare, informatii legate de SIM, reteaua in care se afla, conexiunea Wi-Fi folosita, conexiunea Bluetooth utilizata, modalitatea de securizare a accesului la telefon (PIN, face ID, amprenta) si, in cazurile in care este aplicabil, nivelul de complexitate a codului PIN configurat pe telefon si o eventuala nefinalizare cu success a unei autentificari face ID (codurile PIN, face ID si amprentele nu sunt niciodata accesate sau pastrate).</string>
+    <string name="info_contacts_description">Aplicatia acceseaza contactele din agenda pentru a facilita utilizarea anumitor functionalitati, precum Reincarcarea PrePay.</string>
+    <string name="info_storage_description">Aceasta aplicatie poate utiliza fișiere stocate pe dispozitivul tau sau pe un mediu de stocare extern. Aceasta permisiune permite aplicatiei sa citeasca, sa editeze sau sa stearga fisierele referitoare la modulul de chat.</string>
+    <string name="info_trust_badge_commitment_title">Angajamentul nostru</string>
+    <string name="otb_home_dynamic_and_link">\u0020și\u0020</string>
+    <string name="otb_home_dynamic_one_more">\u0020în plus</string>
+    <string name="otb_home_dynamic_more">\u0020în plus</string>
+    <string name="otb_home_app_data_no_granted">Aplicația nu are acces la date</string>
+    <string name="otb_home_permission_no_granted">Aplicația nu are acces la date</string>
+    <string name="info_trust_badge_commitment_content">Pentru Maine este o aplicatie pe care o poti utiliza in mod sigur, iar datele colectate vor fi prelucrate in mod anonim. Pentru imbunatatirea serviciilor, aplicatia poate colecta si trimite informatii legate de utilizarea si functionalitatea aplicatiei. Aceste informatii sunt colectate si procesate in acord cu legile in vigoare. Aceasta aplicatie nu afiseaza continut neadecvat minorilor.</string>
+    <string name="otb_home_terms_title">Angajamentul nostru</string>
+    <string name="otb_home_terms_content">Pentru Maine este o aplicatie pe care o poti utiliza intr-un mod sigur, iar datele colectate vor fi prelucrate in mod anonim.</string>
+</resources>

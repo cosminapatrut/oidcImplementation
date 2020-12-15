@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="brandOrange">#FF7900</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="home_grey_text">#666666</color>
+    <color name="active_dot">#FF7900</color>
+    <color name="inactive_dot">#80FF7900</color>
+    <color name="inactive_grey_button_background">#333333</color>
+    <color name="inactive_dark_grey_text">#666666</color>
+    <color name="inactive_light_grey_text">#999999</color>
+    <color name="separator_color">#CCCCCC</color>
+    <color name="recharge_divider">#b8b8b8</color>
+</resources>

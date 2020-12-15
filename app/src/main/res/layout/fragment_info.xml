@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    android:fitsSystemWindows="true">
+
+    <ImageView
+        android:id="@+id/orange_logo_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/ic_orange_logo"/>
+
+    <LinearLayout
+        android:id="@+id/home_container"
+        android:layout_width="match_parent"
+        android:layout_below="@id/orange_logo_iv"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="10dp"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/home_image_iv"
+            android:layout_width="225dp"
+            android:layout_height="203dp"
+            android:src="@drawable/ic_view_pager_main"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/home_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:text="#PentruMaine"
+            android:fontFamily="@font/san_francisco_display_regular"
+            android:textSize="32sp"
+            android:layout_marginBottom="29dp"/>
+
+        <TextView
+            android:id="@+id/copyright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="start"
+            android:textColor="@color/black"
+            android:text="Copyright @2020"
+            android:fontFamily="@font/san_francisco_display_regular"
+            android:textSize="20sp"
+            android:layout_marginBottom="5dp"/>
+
+
+        <TextView
+            android:id="@+id/trust_badge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="start"
+            android:textColor="@color/brandOrange"
+            android:text="@string/trust_badge"
+            android:fontFamily="@font/san_francisco_display_regular"
+            android:textSize="20sp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="start"
+            android:textColor="@color/black"
+            android:text="Version: 1.0"
+            android:fontFamily="@font/san_francisco_display_regular"
+            android:textSize="20sp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/dev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="start"
+            android:textColor="@color/black"
+            android:text="Developer: Orange Romania"
+            android:fontFamily="@font/san_francisco_display_regular"
+            android:textSize="20sp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/rights"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start"
+            android:textColor="@color/black"
+            android:text="Toate drepturile rezervate Orange Romania S.A"
+            android:fontFamily="@font/san_francisco_display_regular"
+            android:textSize="20sp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/adress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start"
+            android:textColor="@color/black"
+            android:text="Adresa: Bld Lascar Catargiu, nr 47-50, sector 1, Bucuresti, Romania"
+            android:fontFamily="@font/san_francisco_display_regular"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"/>
+
+            <TextView
+            android:id="@+id/terms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start"
+            android:textColor="@color/brandOrange"
+            android:text="@string/terms"
+            android:fontFamily="@font/san_francisco_display_regular"
+            android:textSize="20sp" android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/inactive_light_grey_text"/>
+
+        <TextView
+            android:id="@+id/privacy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start"
+            android:textColor="@color/brandOrange"
+            android:text="@string/privacy"
+            android:fontFamily="@font/san_francisco_display_regular"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"/>
+    </LinearLayout>
+</RelativeLayout>

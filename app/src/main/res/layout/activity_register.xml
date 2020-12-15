@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".register.RegisterFragment"
+    android:fitsSystemWindows="true">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/reg_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppWithToolbar">
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/login_image_iv"
+        android:layout_width="91dp"
+        android:layout_height="83dp"
+        android:layout_gravity="left"
+        android:background="@drawable/ic_view_pager_main"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/login_image_text_tv"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/home_rv_item_title"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:layout_below="@id/login_image_iv"
+        android:layout_marginLeft="24dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginStart="24dp" />
+
+    <TextView
+        android:id="@+id/login_create_text_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="@string/create_new"
+        android:layout_gravity="left"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:fontFamily="@font/san_francisco_display_regular"
+        android:layout_below="@id/login_image_text_tv"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp" />
+
+    <TextView
+        android:id="@+id/login_account_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="@string/account"
+        android:layout_gravity="left"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:fontFamily="@font/san_francisco_display_bold"
+        android:layout_below="@id/login_create_text_tv"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/login_username_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:textColorHint="@color/inactive_light_grey_text"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/login_account_tv"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/login_password_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_username_et"
+        android:drawableEnd="@drawable/ic_eye_disabled"
+        android:drawableRight="@drawable/ic_eye_disabled"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/inactive_light_grey_text"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="29dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:id="@+id/login_confirm_password_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_password_et"
+        android:drawableEnd="@drawable/ic_eye_disabled"
+        android:drawableRight="@drawable/ic_eye_disabled"
+        android:hint="@string/confirm_password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/inactive_light_grey_text"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <CheckBox
+        android:id="@+id/agree_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/login_confirm_password_et"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/agreement_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:text="@string/agreement"
+        android:fontFamily="@font/san_francisco_display_regular"
+        android:textSize="16sp"
+        android:gravity="center_vertical"
+        android:layout_below="@id/login_confirm_password_et"
+        android:layout_toRightOf="@id/agree_cb"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:textColor="@color/inactive_light_grey_text"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="48dp"
+        android:layout_toEndOf="@id/agree_cb"/>
+
+    <TextView
+        android:id="@+id/terms_agreement_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="@string/terms_agreement"
+        android:fontFamily="@font/san_francisco_display_regular"
+        android:textSize="16sp"
+        android:gravity="center_vertical"
+        android:layout_below="@id/login_confirm_password_et"
+        android:layout_marginLeft="1dp"
+        android:layout_marginStart="1dp"
+        android:textColor="@color/brandOrange"
+        android:layout_marginBottom="48dp"
+        android:layout_toRightOf="@id/agreement_tv"
+        android:layout_toEndOf="@id/agreement_tv" />
+    <Button
+        android:id="@+id/rgt_register_btn"
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:background="@drawable/button_rounded_grey_fill"
+        android:text="@string/create_acountc"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:fontFamily="@font/san_francisco_display_medium"
+        android:layout_below="@id/terms_agreement_tv"
+        android:layout_marginBottom="19dp" />
+
+    <TextView
+        android:id="@+id/rgt_login_btn"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/login_underlined"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:textColor="@color/inactive_dark_grey_text"
+        android:fontFamily="@font/san_francisco_display_regular"
+        android:layout_below="@id/rgt_register_btn"
+        android:layout_marginBottom="5dp"
+        />
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.orange.volunteers.campaigns.overview.carouselTransformer.ScalableStateView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:maxWidth="240dp"
+    android:padding="1dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="true">
+        <ImageView
+            android:id="@+id/campaign_image_iv"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_view_pager_main"/>
+
+    </androidx.cardview.widget.CardView>
+</com.orange.volunteers.campaigns.overview.carouselTransformer.ScalableStateView>

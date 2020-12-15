@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/auth_container"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    tools:context=".auth.AuthFragment">
+
+    <ImageView
+        android:id="@+id/orange_logo_iv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="294dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/ic_orange_logo"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="294dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/home_horizontal_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orange_logo_iv"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:orientation="horizontal"
+        android:foregroundGravity="center_horizontal"
+        android:clipToPadding="false"/>
+
+    <me.relex.circleindicator.CircleIndicator2
+        android:id="@+id/circle_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:antialias="true"
+        app:ci_drawable="@drawable/ic_active_dot"
+        app:ci_drawable_unselected="@drawable/ic_inactive_dot"
+        app:ci_height="8dp"
+        app:ci_margin="4dp"
+        app:ci_animator="@anim/scale_dots"
+        android:layout_below="@id/home_horizontal_rv"
+        app:ci_width="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/login_btn"
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:background="@drawable/button_rounded_orange_fill"
+        android:text="@string/login_btn_text"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:fontFamily="@font/san_francisco_display_medium"
+        android:layout_below="@id/circle_indicator"
+        android:layout_marginBottom="22dp" />
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/register_btn"
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:background="@drawable/button_rounded_black_border"
+        android:text="@string/register_btn_text"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:fontFamily="@font/san_francisco_display_medium"
+        android:layout_below="@id/login_btn"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/start_auth"
+        android:text="@string/login_title"
+        android:background="@drawable/button_rounded_orange_fill"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/auth_network_error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="24dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="A intervenit o eroare. Te rugam sa incerci mai tarziu."
+        android:visibility="gone"
+        tools:visibility="visible"/>
+
+
+</RelativeLayout>

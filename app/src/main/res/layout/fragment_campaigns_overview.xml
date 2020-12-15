@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/campaigns_overview_container"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".campaigns.overview.CampaignsFragment">
+
+    <RelativeLayout
+        android:id="@+id/campaigns_overview_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/campaigns_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/campaigns_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Campanii"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:fontFamily="@font/san_francisco_display_bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginStart="24dp"/>
+
+            <TextView
+                android:id="@+id/campaigns_number_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="76"
+                android:textColor="@color/inactive_dark_grey_text"
+                android:textSize="18sp"
+                android:fontFamily="@font/san_francisco_display_regular"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginStart="24dp" />
+        </LinearLayout>
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/campaigns_images_viewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:layout_below="@+id/campaigns_container"
+                    android:layout_marginTop="10dp"
+                    android:clipToPadding="false"
+                    android:clipChildren="false"
+                    android:overScrollMode="never" />
+
+        <ScrollView
+            android:id="@+id/campaign_details_scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/campaigns_images_viewpager">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/campaign_bottom_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="8dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:background="@color/white"
+                    android:elevation="10dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/campaign_title_card_overview"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:text="Doneaza pentru un spital din Romania in lupta cu COVID-19"
+                            android:layout_margin="17dp"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/san_francisco_display_bold"
+                            android:textSize="18sp" />
+                        <TextView
+                            android:id="@+id/campaign_summary_card_overview"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:text="Poti dona acum pentru orice spital din Romania si sustine lupta impotriva COVID-19 ajutand medicii din prima linie. Din fondurile stranse se vor strange fonduri pentru medicamente si echipamente de ultima generatie."
+                            android:layout_marginLeft="17dp"
+                            android:layout_marginRight="17dp"
+                            android:layout_marginBottom="17dp"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/campaign_details_btn"
+            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:background="@drawable/button_rounded_orange_fill"
+            android:text="Detalii"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:fontFamily="@font/san_francisco_display_medium"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"/>
+    </RelativeLayout>
+    <ProgressBar
+        android:id="@+id/loading_indicator"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+    <TextView
+        android:id="@+id/campaigns_network_error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="24dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="A intervenit o eroare. Te rugam sa incerci mai tarziu."
+        android:visibility="gone"
+        tools:visibility="visible"/>
+</FrameLayout>

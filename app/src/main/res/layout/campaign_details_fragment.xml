@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/campaign_details_frame_container">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/campaign_details_toolbar"
+            android:layout_width="match_parent"
+            android:layout_gravity="top"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppWithToolbar">
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <RelativeLayout
+            android:id="@+id/campaign_details_container"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/subscribe_btn"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal">
+                    <LinearLayout
+                        android:id="@+id/title_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/title_image_iv"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:textSize="18sp"
+                            android:background="@drawable/ic_view_pager_main" />
+
+                        <TextView
+                            android:id="@+id/title_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Title"
+                            android:layout_marginLeft="8dp"
+                            android:layout_gravity="center_vertical"
+                            android:fontFamily="@font/san_francisco_display_bold"
+                            android:layout_marginRight="60dp"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"/>
+                    </LinearLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/campaign_details_horizontal_rv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:orientation="horizontal"
+                        android:layout_below="@+id/title_container"
+                        android:foregroundGravity="center_horizontal"
+                        android:clipToPadding="false"/>
+
+                    <me.relex.circleindicator.CircleIndicator2
+                        android:id="@+id/campaign_details_circle_indicator"
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:antialias="true"
+                        app:ci_drawable="@drawable/ic_active_dot"
+                        app:ci_drawable_unselected="@drawable/ic_inactive_dot"
+                        app:ci_height="8dp"
+                        app:ci_margin="4dp"
+                        app:ci_animator="@anim/scale_dots"
+                        app:ci_width="8dp"
+                        android:layout_below="@id/campaign_details_horizontal_rv"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"/>
+
+                <ScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/campaign_details_circle_indicator"
+                    android:layout_above="@+id/subscribe_btn"
+                    android:layout_marginBottom="5dp">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardview_pinned_details"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="8dp"
+                            android:padding="16dp"
+                            android:layout_margin="5dp"
+                            android:background="@color/white"
+                            android:elevation="10dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="10dp"
+                                    android:orientation="horizontal">
+                                    <ImageView
+                                        android:id="@+id/period_circle_iv"
+                                        android:layout_width="26dp"
+                                        android:layout_height="26dp"
+                                        android:layout_marginStart="10dp"
+                                        android:layout_gravity="start"
+                                        android:textSize="18sp"
+                                        android:background="@drawable/ic_calendar"
+                                        android:layout_marginLeft="10dp" />
+
+                                    <TextView
+                                        android:id="@+id/period_tv"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="16dp"
+                                        android:text="Perioada:"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_gravity="center_vertical"
+                                        android:fontFamily="@font/san_francisco_display_bold"
+                                        android:textColor="@color/black"
+                                        android:textSize="14sp"/>
+
+                                    <TextView
+                                        android:id="@+id/period_value_tv"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="16dp"
+                                        android:text="23.10.2020 - 01.01.2021"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_gravity="center_vertical"
+                                        android:fontFamily="@font/san_francisco_display_regular"
+                                        android:textColor="@color/black"
+                                        android:textSize="14sp"/>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="10dp"
+                                    android:orientation="horizontal">
+                                    <ImageView
+                                        android:id="@+id/location_circle_iv"
+                                        android:layout_width="26dp"
+                                        android:layout_height="26dp"
+                                        android:layout_marginStart="10dp"
+                                        android:layout_gravity="start|center_vertical"
+                                        android:textSize="18sp"
+                                        android:background="@drawable/ic_location"
+                                        android:layout_marginLeft="10dp" />
+
+                                    <TextView
+                                        android:id="@+id/location_tv"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="16dp"
+                                        android:text="Locatie:"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_gravity="center_vertical"
+                                        android:fontFamily="@font/san_francisco_display_bold"
+                                        android:textColor="@color/black"
+                                        android:textSize="14sp"/>
+
+                                    <TextView
+                                        android:id="@+id/location_value_tv"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Str Gara Herastrau nr.4, Bucharest"
+                                        android:layout_marginLeft="10dp"
+                                        android:maxLines="2"
+                                        android:layout_gravity="center_vertical"
+                                        android:fontFamily="@font/san_francisco_display_regular"
+                                        android:textColor="@color/black"
+                                        android:textSize="14sp"/>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="10dp"
+                                    android:orientation="horizontal">
+                                    <ImageView
+                                        android:id="@+id/volunteers_circle_iv"
+                                        android:layout_width="26dp"
+                                        android:layout_height="26dp"
+                                        android:layout_marginStart="10dp"
+                                        android:layout_gravity="start"
+                                        android:textSize="18sp"
+                                        android:background="@drawable/ic_users"
+                                        android:layout_marginLeft="10dp" />
+
+                                    <TextView
+                                        android:id="@+id/volunteers_tv"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="16dp"
+                                        android:text="Voluntari inscrisi:"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_gravity="center_vertical"
+                                        android:fontFamily="@font/san_francisco_display_bold"
+                                        android:textColor="@color/black"
+                                        android:textSize="14sp"/>
+
+                                    <TextView
+                                        android:id="@+id/volunteers_value_tv"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="18dp"
+                                        android:text="28/50"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_gravity="center_vertical"
+                                        android:fontFamily="@font/san_francisco_display_regular"
+                                        android:layout_marginRight="60dp"
+                                        android:textColor="@color/black"
+                                        android:textSize="14sp"/>
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardview_description"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="8dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@+id/cardview_pinned_details"
+                            android:layout_margin="5dp"
+                            android:padding="16dp"
+                            android:background="@color/white"
+                            android:elevation="10dp">
+
+                            <TextView
+                                android:id="@+id/campaign_details_description"
+                                android:layout_width="match_parent"
+                                android:justificationMode="inter_word"
+                                android:layout_height="wrap_content"
+                                android:text="Poti dona acum pentru orice spital din Romania si sustine lupta impotriva COVID-19 ajutand medicii din prima linie. Din fondurile stranse se vor strange fonduri pentru medicamente si echipamente de ultima generatie."
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginHorizontal="20dp"
+                                android:textSize="14sp" />
+
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                </ScrollView>
+
+                </RelativeLayout>
+
+            <Button
+                android:id="@+id/subscribe_btn"
+                android:layout_height="46dp"
+                android:layout_width="270dp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:fontFamily="@font/san_francisco_display_medium"
+                android:background="@drawable/button_rounded_orange_fill"
+                android:text="Inscrie-te"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/campaign_details_loading_indicator"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center"
+        tools:visibility="visible"
+        android:visibility="gone"/>
+</FrameLayout>

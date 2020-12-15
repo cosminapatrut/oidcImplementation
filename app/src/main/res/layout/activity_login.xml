@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:background="@color/white"
+    tools:context=".login.LoginFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/lgn_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppWithToolbar">
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/login_image_iv"
+        android:layout_width="91dp"
+        android:layout_height="83dp"
+        android:layout_gravity="left"
+        android:background="@drawable/ic_view_pager_main"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/login_image_text_tv"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/home_rv_item_title"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:layout_below="@id/login_image_iv"
+        android:layout_marginLeft="24dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginStart="24dp" />
+
+    <TextView
+        android:id="@+id/login_proceed_text_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="@string/login_proceed"
+        android:layout_gravity="left"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:fontFamily="@font/san_francisco_display_regular"
+        android:layout_below="@id/login_image_text_tv"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp" />
+
+    <TextView
+        android:id="@+id/login_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="@string/login_title"
+        android:layout_gravity="start"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:fontFamily="@font/san_francisco_display_bold"
+        android:layout_below="@id/login_proceed_text_tv"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="30dp"/>
+    
+    <EditText
+        android:id="@+id/login_username_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:textColorHint="@color/inactive_light_grey_text"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/login_title_tv"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/login_password_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_username_et"
+        android:drawableEnd="@drawable/ic_eye_disabled"
+        android:drawableRight="@drawable/ic_eye_disabled"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/inactive_light_grey_text"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="29dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/login_forgot_password_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/forgot_password"
+        android:fontFamily="@font/san_francisco_display_regular"
+        android:textSize="16sp"
+        android:layout_below="@id/login_password_et"
+        android:layout_marginRight="24dp"
+        android:layout_marginEnd="24dp"
+        android:textColor="@color/brandOrange"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="48dp"/>
+
+    <Button
+        android:id="@+id/lgn_login_btn"
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:background="@drawable/button_rounded_grey_fill"
+        android:text="@string/login_btn_text"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:fontFamily="@font/san_francisco_display_medium"
+        android:layout_below="@id/login_forgot_password_tv"
+        android:layout_marginBottom="19dp" />
+
+    <TextView
+        android:id="@+id/lgn_register_btn"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/register_btn_text_underline"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:textColor="@color/inactive_dark_grey_text"
+        android:fontFamily="@font/san_francisco_display_regular"
+        android:layout_below="@id/lgn_login_btn"
+        />
+</RelativeLayout>

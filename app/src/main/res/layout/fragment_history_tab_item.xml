@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/dividerView"
+        android:layout_width="1dp"
+        android:layout_height="18dp"
+        android:layout_gravity="center_vertical"
+        android:background="@color/recharge_divider" />
+
+    <TextView
+        android:id="@+id/tabTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:paddingLeft="@dimen/tab_padding"
+        android:paddingRight="@dimen/tab_padding"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:text="Internet" />
+
+
+</LinearLayout>

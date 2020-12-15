@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".campaign.CampaignFragment">
+
+    <TextView
+        android:id="@+id/domain_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Campanii"
+        android:layout_gravity="left"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:fontFamily="@font/san_francisco_display_bold"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/domains_subtext_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="76"
+        android:textColor="@color/inactive_dark_grey_text"
+        android:textSize="22sp"
+        android:fontFamily="@font/san_francisco_display_regular"
+        android:layout_toRightOf="@id/domain_tv"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="32dp"/>
+
+    <com.orange.volunteers.campaign.HorizontalCampaignsRecyclerView
+        android:id="@+id/item_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/domain_tv"
+        android:layout_gravity="center_vertical"
+        android:clipToPadding="false"
+        android:overScrollMode="never" />
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/text_card"
+        android:layout_below="@id/item_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:elevation="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/title_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doneaza pentru un spital din Romania in lupta cu COVID-19"
+                android:layout_margin="17dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/san_francisco_display_bold"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/subtitle_card"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Poti dona acum pentru orice spital din Romania si sustine lupta impotriva COVID-19 ajutand medicii din prima linie. Din fondurile stranse se vor strange fonduri pentru medicamente si echipamente de ultima generatie."
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"
+                android:layout_marginBottom="17dp"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:background="@drawable/button_rounded_orange_fill"
+        android:text="Detalii"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:fontFamily="@font/san_francisco_display_medium"
+        android:layout_below="@id/text_card"
+        android:layout_marginTop="48dp" />
+
+</RelativeLayout>

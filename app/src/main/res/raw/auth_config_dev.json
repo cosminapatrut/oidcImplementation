@@ -1,0 +1,13 @@
+{
+  "client_id": "383613fc-0352-44b8-a1ed-0ecdbde1f18e",
+  "redirect_uri": "implicate://oauth2/authorization",
+  "authorization_scope": "openid profile email phone",
+  "discovery_uri": "https://www-dev.orange.ro/oauth2/.well-known/openid-configuration",
+  "authorization_endpoint_uri": "https://www-dev.orange.ro/oauth2/auth",
+  "token_endpoint_uri": "https://www-dev.orange.ro/oauth2/token",
+  "registration_endpoint_uri": "https://www-dev.orange.ro/oauth2/create-user",
+  "user_info_endpoint_uri": "https://www-dev.orange.ro/csr-backend/user/self",
+  "https_required": false,
+  "access_type": "offline"
+}
+

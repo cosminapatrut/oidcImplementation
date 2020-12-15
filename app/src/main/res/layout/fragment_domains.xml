@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".user.UserProfileFragment"
+    android:fitsSystemWindows="true">
+    <RelativeLayout
+        android:id="@+id/domains_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:background="@color/white"
+        tools:context=".userdomains.DomainsFragment">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/domains_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppWithToolbar">
+        </androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/domains_toolbar"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/domain_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/domains_toolbar"
+                android:layout_gravity="left"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/san_francisco_display_bold"
+                android:gravity="left"
+                android:text="@string/domains_text"
+                android:textColor="@color/black"
+                android:textSize="22sp"/>
+
+            <TextView
+                android:id="@+id/domains_subtext_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/domain_tv"
+                android:layout_gravity="left"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginBottom="32dp"
+                android:fontFamily="@font/san_francisco_display_regular"
+                android:gravity="left"
+                android:text="@string/domains_subtext"
+                android:textColor="@color/inactive_dark_grey_text"
+                android:textSize="18sp"/>
+            <ScrollView
+                android:id="@+id/scrollView_domains"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/domains_subtext_tv"
+                android:layout_height="wrap_content">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardview_domains"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:elevation="2dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardUseCompatPadding="true">
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/domains_vertical_rv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginRight="24dp"
+                        android:clipToPadding="false"
+                        android:foregroundGravity="center_horizontal"
+                        android:orientation="horizontal"/>
+                </androidx.cardview.widget.CardView>
+            </ScrollView>
+            <Button
+                android:id="@+id/save_btn"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/scrollView_domains"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_margin="48dp"
+                android:background="@drawable/button_rounded_orange_fill"
+                android:fontFamily="@font/san_francisco_display_medium"
+                android:gravity="center"
+                android:text="@string/save"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/domains_network_error"
+            android:layout_below="@id/domains_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="A intervenit o eroare. Te rugam sa incerci mai tarziu."
+            android:visibility="gone"
+            tools:visibility="visible"/>
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/domains_loading_indicator"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+
+</FrameLayout>

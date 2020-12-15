@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/campaign_title_card_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doneaza pentru un spital din Romania in lupta cu COVID-19"
+                android:layout_margin="17dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/san_francisco_display_bold"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/campaign_summary_card_item"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Poti dona acum pentru orice spital din Romania si sustine lupta impotriva COVID-19 ajutand medicii din prima linie. Din fondurile stranse se vor strange fonduri pentru medicamente si echipamente de ultima generatie."
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"
+                android:layout_marginBottom="17dp"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+</LinearLayout>

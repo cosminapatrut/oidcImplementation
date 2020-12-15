@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da93daa0-3193-4f4e-bb86-603700196381" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/home/HomeActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/home/HomeActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/data/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[8AMY0N2G6]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="valueResourceFile" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/../pentrumaine" />
+    <option name="KEY_ALIAS" value="pentrumaine" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1dOe0zcKUboH7OoBMmPdSNJaqJr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="compactDirectories" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="Volunteers.app" />
+    <property name="DEBUGGABLE_DEVICE" value="google-pixel_3_xl-8AMY0N2G6" />
+    <property name="DEBUGGABLE_PROCESS" value="com.orange.volunteers" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="8AMY0N2G6" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-11-09T11:43:05.245Z" />
+    <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android-custom-view/Users/cosmina/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0/f2bdf79e1977939817f54a9d3e2f6bc52b63bdd0/recyclerview-1.1.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED" value="RecyclerView" />
+    <property name="android-custom-view/Users/cosmina/StudioProjects/Volunteers/app/src/main/java/com/orange/volunteers/history/HistoryTabsLayout.kt_SELECTED" value="HistoryTabsLayout" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="multi-representation-preview/Users/cosmina/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0/f2bdf79e1977939817f54a9d3e2f6bc52b63bdd0/recyclerview-1.1.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/cosmina/StudioProjects/Volunteers/app/src/main/java/com/orange/volunteers/history/HistoryTabsLayout.kt_selected" value="Custom views" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.42971888" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.orange.volunteers.user" />
+      <recent name="com.orange.domain.model" />
+      <recent name="com.orange.data.service.user" />
+      <recent name="com.orange.data.service.enrollment" />
+      <recent name="com.orange.data.service.domainsOfInterest" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.orange.volunteers.util" />
+      <recent name="com.orange.data.defaults" />
+      <recent name="com.orange.volunteers" />
+      <recent name="com.orange.volunteers.carousel" />
+      <recent name="com.orange.volunteers.campaign" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/util" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/orange/orangeAuth" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/history" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/history/pastCampaigns" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.orange.volunteers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/util" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/orange/volunteers" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/extensions" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.orange.volunteers.auth" />
+      <recent name="com.orange.volunteers.util" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Volunteers.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da93daa0-3193-4f4e-bb86-603700196381" name="Default Changelist" comment="" />
+      <created>1592300347390</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592300347390</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="245" y="189" key="#PSD" timestamp="1607005098121">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="245" y="189" key="#PSD/0.0.1440.900@0.0.1440.900" timestamp="1607005098121" />
+    <state x="507" y="137" key="#com.intellij.ide.util.MemberChooser" timestamp="1605033694684">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="507" y="137" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1605033694684" />
+    <state x="507" y="144" key="#com.intellij.ide.util.MemberChooser/0.23.1440.793@0.23.1440.793" timestamp="1600183010893" />
+    <state x="177" y="360" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602520206680">
+      <screen x="0" y="23" width="1440" height="793" />
+    </state>
+    <state x="177" y="382" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.900@0.0.1440.900" timestamp="1600185723954" />
+    <state x="177" y="360" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.793@0.23.1440.793" timestamp="1602520206680" />
+    <state x="494" y="307" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1602520207637">
+      <screen x="0" y="23" width="1440" height="793" />
+    </state>
+    <state x="494" y="307" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1440.793@0.23.1440.793" timestamp="1602520207637" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603784165788">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1603784165788" />
+    <state x="494" y="109" width="776" height="681" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1602803329024">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="494" y="109" width="776" height="681" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1602803329024" />
+    <state x="494" y="119" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.23.1440.793@0.23.1440.793" timestamp="1602520200941" />
+    <state x="427" y="279" width="1440" height="786" key="#xdebugger.evaluate" timestamp="1606392283167">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="427" y="279" width="1010" height="621" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1606392283167" />
+    <state x="272" y="217" width="1116" height="579" key="#xdebugger.evaluate/0.23.1440.793@0.23.1440.793" timestamp="1602525975193" />
+    <state x="0" y="25" width="1440" height="786" key="#xdebugger.evaluate/0.25.1440.786@0.25.1440.786" timestamp="1605887977641" />
+    <state x="308" y="212" key="AndroidCreateResourceDirectoryDialog" timestamp="1598851475234">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="308" y="212" key="AndroidCreateResourceDirectoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1598851475234" />
+    <state x="308" y="212" key="AndroidCreateResourceFileDialog" timestamp="1605033656102">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="308" y="212" key="AndroidCreateResourceFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1605033656102" />
+    <state x="0" y="28" width="1440" height="786" key="AndroidProcessChooserDialog" timestamp="1607009620887">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="25" width="1440" height="786" key="AndroidProcessChooserDialog/0.0.1440.811@0.0.1440.811" timestamp="1605788863214" />
+    <state x="0" y="28" width="1440" height="786" key="AndroidProcessChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1607009620887" />
+    <state x="0" y="25" width="1440" height="786" key="AndroidProcessChooserDialog/0.25.1440.786@0.25.1440.786" timestamp="1605887785250" />
+    <state x="0" y="25" width="1440" height="786" key="AndroidProcessChooserDialog/0.25.1440.788@0.25.1440.788" timestamp="1605795273694" />
+    <state width="694" height="555" key="DebuggerActiveHint" timestamp="1606385548607">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="694" height="555" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1606385548607" />
+    <state width="636" height="466" key="DebuggerActiveHint/0.23.1440.793@0.23.1440.793" timestamp="1605115369575" />
+    <state width="694" height="555" key="DebuggerActiveHint/0.25.1440.786@0.25.1440.786" timestamp="1606384126286" />
+    <state width="694" height="486" key="DebuggerActiveHint/0.25.1440.788@0.25.1440.788" timestamp="1605795362723" />
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1606377591003">
+      <screen x="0" y="25" width="1440" height="786" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1598856276576" />
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.23.1440.793@0.23.1440.793" timestamp="1598856283056" />
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.25.1440.786@0.25.1440.786" timestamp="1606377591003" />
+    <state x="508" y="198" key="FileChooserDialogImpl" timestamp="1605027591265">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="508" y="198" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1605027591265" />
+    <state width="1152" height="212" key="GridCell.Tab.0.bottom" timestamp="1607013907959">
+      <screen x="0" y="25" width="1440" height="786" />
+    </state>
+    <state width="1196" height="74" key="GridCell.Tab.0.bottom/0.0.1440.811@0.0.1440.811" timestamp="1605788863388" />
+    <state width="1152" height="212" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607010023462" />
+    <state width="1203" height="373" key="GridCell.Tab.0.bottom/0.23.1440.793@0.23.1440.793" timestamp="1605114293633" />
+    <state width="1171" height="21" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1605193271210" />
+    <state width="1152" height="212" key="GridCell.Tab.0.bottom/0.25.1440.786@0.25.1440.786" timestamp="1607013907959" />
+    <state width="1192" height="60" key="GridCell.Tab.0.bottom/0.25.1440.788@0.25.1440.788" timestamp="1605795273871" />
+    <state width="1152" height="212" key="GridCell.Tab.0.center" timestamp="1607013907957">
+      <screen x="0" y="25" width="1440" height="786" />
+    </state>
+    <state width="1196" height="74" key="GridCell.Tab.0.center/0.0.1440.811@0.0.1440.811" timestamp="1605788863387" />
+    <state width="1152" height="212" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607010023459" />
+    <state width="1203" height="373" key="GridCell.Tab.0.center/0.23.1440.793@0.23.1440.793" timestamp="1605114293632" />
+    <state width="1171" height="21" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1605193271209" />
+    <state width="1152" height="212" key="GridCell.Tab.0.center/0.25.1440.786@0.25.1440.786" timestamp="1607013907957" />
+    <state width="1192" height="60" key="GridCell.Tab.0.center/0.25.1440.788@0.25.1440.788" timestamp="1605795273869" />
+    <state width="1152" height="212" key="GridCell.Tab.0.left" timestamp="1607013907956">
+      <screen x="0" y="25" width="1440" height="786" />
+    </state>
+    <state width="1196" height="74" key="GridCell.Tab.0.left/0.0.1440.811@0.0.1440.811" timestamp="1605788863386" />
+    <state width="1152" height="212" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607010023459" />
+    <state width="1203" height="373" key="GridCell.Tab.0.left/0.23.1440.793@0.23.1440.793" timestamp="1605114293632" />
+    <state width="1171" height="21" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1605193271208" />
+    <state width="1152" height="212" key="GridCell.Tab.0.left/0.25.1440.786@0.25.1440.786" timestamp="1607013907956" />
+    <state width="1192" height="60" key="GridCell.Tab.0.left/0.25.1440.788@0.25.1440.788" timestamp="1605795273868" />
+    <state width="1152" height="212" key="GridCell.Tab.0.right" timestamp="1607013907958">
+      <screen x="0" y="25" width="1440" height="786" />
+    </state>
+    <state width="1196" height="74" key="GridCell.Tab.0.right/0.0.1440.811@0.0.1440.811" timestamp="1605788863388" />
+    <state width="1152" height="212" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607010023460" />
+    <state width="1203" height="373" key="GridCell.Tab.0.right/0.23.1440.793@0.23.1440.793" timestamp="1605114293633" />
+    <state width="1171" height="21" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1605193271210" />
+    <state width="1152" height="212" key="GridCell.Tab.0.right/0.25.1440.786@0.25.1440.786" timestamp="1607013907958" />
+    <state width="1192" height="60" key="GridCell.Tab.0.right/0.25.1440.788@0.25.1440.788" timestamp="1605795273870" />
+    <state width="1152" height="212" key="GridCell.Tab.1.bottom" timestamp="1607013907967">
+      <screen x="0" y="25" width="1440" height="786" />
+    </state>
+    <state width="1196" height="74" key="GridCell.Tab.1.bottom/0.0.1440.811@0.0.1440.811" timestamp="1605788863271" />
+    <state width="1152" height="212" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607010023464" />
+    <state width="1203" height="373" key="GridCell.Tab.1.bottom/0.23.1440.793@0.23.1440.793" timestamp="1605114293638" />
+    <state width="1152" height="212" key="GridCell.Tab.1.bottom/0.25.1440.786@0.25.1440.786" timestamp="1607013907967" />
+    <state width="1192" height="60" key="GridCell.Tab.1.bottom/0.25.1440.788@0.25.1440.788" timestamp="1605795277284" />
+    <state width="1152" height="212" key="GridCell.Tab.1.center" timestamp="1607013907960">
+      <screen x="0" y="25" width="1440" height="786" />
+    </state>
+    <state width="1196" height="74" key="GridCell.Tab.1.center/0.0.1440.811@0.0.1440.811" timestamp="1605788863270" />
+    <state width="1152" height="212" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1607010023463" />
+    <state width="1203" height="373" key="GridCell.Tab.1.center/0.23.1440.793@0.23.1440.793" timestamp="1605114293634" />
+    <state width="1152" height="212" key="GridCell.Tab.1.center/0.25.1440.786@0.25.1440.786" timestamp="1607013907960" />
+    <state width="1192" height="60" key="GridCell.Tab.1.center/0.25.1440.788@0.25.1440.788" timestamp="1605795277284" />
+    <state width="1152" height="212" key="GridCell.Tab.1.left" timestamp="1607013907960">
+      <screen x="0" y="25" width="1440" height="786" />
+    </state>
+    <state width="1196" height="74" key="GridCell.Tab.1.left/0.0.1440.811@0.0.1440.811" timestamp="1605788863270" />
+    <state width="1152" height="212" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1607010023462" />
+    <state width="1203" height="373" key="GridCell.Tab.1.left/0.23.1440.793@0.23.1440.793" timestamp="1605114293634" />
+    <state width="1152" height="212" key="GridCell.Tab.1.left/0.25.1440.786@0.25.1440.786" timestamp="1607013907960" />
+    <state width="1192" height="60" key="GridCell.Tab.1.left/0.25.1440.788@0.25.1440.788" timestamp="1605795277283" />
+    <state width="1152" height="212" key="GridCell.Tab.1.right" timestamp="1607013907967">
+      <screen x="0" y="25" width="1440" height="786" />
+    </state>
+    <state width="1196" height="74" key="GridCell.Tab.1.right/0.0.1440.811@0.0.1440.811" timestamp="1605788863271" />
+    <state width="1152" height="212" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1607010023463" />
+    <state width="1203" height="373" key="GridCell.Tab.1.right/0.23.1440.793@0.23.1440.793" timestamp="1605114293637" />
+    <state width="1152" height="212" key="GridCell.Tab.1.right/0.25.1440.786@0.25.1440.786" timestamp="1607013907967" />
+    <state width="1192" height="60" key="GridCell.Tab.1.right/0.25.1440.788@0.25.1440.788" timestamp="1605795277284" />
+    <state width="720" height="462" key="XDebugger.FullValuePopup" timestamp="1606392279096">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="720" height="462" key="XDebugger.FullValuePopup/0.0.1440.900@0.0.1440.900" timestamp="1606392279096" />
+    <state width="720" height="462" key="XDebugger.FullValuePopup/0.23.1440.793@0.23.1440.793" timestamp="1605106858093" />
+    <state width="720" height="404" key="XDebugger.FullValuePopup/0.25.1440.786@0.25.1440.786" timestamp="1605798026758" />
+    <state x="414" y="72" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605047257665">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="414" y="72" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900@0.0.1440.900" timestamp="1605047257665" />
+    <state x="0" y="28" width="1440" height="786" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605791068303">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="28" width="1440" height="786" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900@0.0.1440.900" timestamp="1605791068303" />
+    <state x="240" y="193" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.793@0.23.1440.793" timestamp="1602523807521" />
+    <state x="267" y="140" width="816" height="582" key="find.popup" timestamp="1607441178717">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="267" y="140" width="816" height="582" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1607441178717" />
+    <state x="386" y="178" width="739" height="486" key="find.popup/0.23.1440.793@0.23.1440.793" timestamp="1602525553690" />
+    <state x="267" y="147" width="816" height="490" key="find.popup/0.25.1440.786@0.25.1440.786" timestamp="1605793971243" />
+    <state x="267" y="148" width="816" height="510" key="find.popup/0.25.1440.788@0.25.1440.788" timestamp="1605795192837" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1607441074064">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1607441074064" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.23.1440.793@0.23.1440.793" timestamp="1605017263215" />
+    <state x="385" y="197" width="670" height="591" key="search.everywhere.popup/0.25.1440.786@0.25.1440.786" timestamp="1606228592863" />
+    <state x="385" y="197" width="670" height="592" key="search.everywhere.popup/0.25.1440.788@0.25.1440.788" timestamp="1605795232936" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/campaigns/details/EnrollmentServiceImpl.kt</url>
+          <line>17</line>
+          <option name="timeStamp" value="1039" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/campaigns/details/CampaignDetailsViewModel.kt</url>
+          <line>103</line>
+          <option name="timeStamp" value="1109" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/history/activeCampaigns/HistoryActiveCampaignsFragment.kt</url>
+          <line>118</line>
+          <option name="timeStamp" value="1147" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/campaigns/details/CampaignDetailsViewModel.kt</url>
+          <line>62</line>
+          <option name="timeStamp" value="1154" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/campaigns/details/CampaignDetailsViewModel.kt</url>
+          <line>66</line>
+          <option name="timeStamp" value="1155" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/history/yearlyCampaigns/YearlyCampaignsAdapter.kt</url>
+          <line>88</line>
+          <option name="timeStamp" value="1161" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/history/yearlyCampaigns/YearlyCampaignsAdapter.kt</url>
+          <line>92</line>
+          <option name="timeStamp" value="1163" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/auth/TokenRefreshAuthenticator.kt</url>
+          <line>27</line>
+          <option name="timeStamp" value="1213" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/auth/TokenRefreshAuthenticator.kt</url>
+          <line>31</line>
+          <option name="timeStamp" value="1214" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/auth/TokenRefreshAuthenticator.kt</url>
+          <line>37</line>
+          <option name="timeStamp" value="1215" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/auth/TokenRefreshAuthenticator.kt</url>
+          <line>45</line>
+          <option name="timeStamp" value="1217" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/instances/modules/ClientProvider.kt</url>
+          <line>29</line>
+          <option name="timeStamp" value="1218" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/instances/modules/ClientProvider.kt</url>
+          <line>30</line>
+          <option name="timeStamp" value="1219" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/auth/TokenRefreshAuthenticator.kt</url>
+          <line>58</line>
+          <option name="timeStamp" value="1222" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/auth/TokenRefreshAuthenticator.kt</url>
+          <line>59</line>
+          <option name="timeStamp" value="1223" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/auth/TokenRefreshAuthenticator.kt</url>
+          <line>60</line>
+          <option name="timeStamp" value="1233" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/orangeAuth/AuthViewModel.kt</url>
+          <line>170</line>
+          <option name="timeStamp" value="1240" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/orangeAuth/OrangeTokenManager.kt</url>
+          <line>50</line>
+          <option name="timeStamp" value="1244" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/orangeAuth/OrangeTokenManager.kt</url>
+          <line>83</line>
+          <option name="timeStamp" value="1245" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/orangeAuth/OrangeTokenManager.kt</url>
+          <line>71</line>
+          <option name="timeStamp" value="1246" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/orangeAuth/OrangeTokenManager.kt</url>
+          <line>52</line>
+          <option name="timeStamp" value="1247" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/orangeAuth/OrangeTokenManager.kt</url>
+          <line>72</line>
+          <option name="timeStamp" value="1249" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/orangeAuth/OrangeTokenManager.kt</url>
+          <line>73</line>
+          <option name="timeStamp" value="1250" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/orangeAuth/OrangeTokenManager.kt</url>
+          <line>54</line>
+          <option name="timeStamp" value="1251" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/orangeAuth/OrangeTokenManager.kt</url>
+          <line>58</line>
+          <option name="timeStamp" value="1252" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/orangeAuth/AuthViewModel.kt</url>
+          <line>168</line>
+          <option name="timeStamp" value="1256" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/orangeAuth/AuthViewModel.kt</url>
+          <line>173</line>
+          <option name="timeStamp" value="1257" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/orangeAuth/AuthViewModel.kt</url>
+          <line>176</line>
+          <option name="timeStamp" value="1258" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/orangeAuth/OrangeTokenManager.kt</url>
+          <line>84</line>
+          <option name="timeStamp" value="1261" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/orangeAuth/AuthViewModel.kt</url>
+          <line>144</line>
+          <option name="timeStamp" value="1278" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/orangeAuth/AuthViewModel.kt</url>
+          <line>249</line>
+          <option name="timeStamp" value="1291" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/orangeAuth/OrangeAuthActivity.kt</url>
+          <line>40</line>
+          <option name="timeStamp" value="1292" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/orangeAuth/AuthViewModel.kt</url>
+          <line>87</line>
+          <option name="timeStamp" value="1294" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/orangeAuth/AuthViewModel.kt</url>
+          <line>251</line>
+          <option name="timeStamp" value="1297" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/orangeAuth/AuthViewModel.kt</url>
+          <line>145</line>
+          <option name="timeStamp" value="1311" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/orangeAuth/AuthViewModel.kt</url>
+          <line>262</line>
+          <option name="timeStamp" value="1324" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/orangeAuth/AuthViewModel.kt</url>
+          <line>265</line>
+          <option name="timeStamp" value="1325" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/user/UserInfoApiClient.kt</url>
+          <line>49</line>
+          <option name="timeStamp" value="1343" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/campaigns/overview/CampaignsViewModel.kt</url>
+          <line>30</line>
+          <option name="timeStamp" value="1350" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/campaigns/overview/CampaignsViewModel.kt</url>
+          <line>34</line>
+          <option name="timeStamp" value="1351" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/campaigns/details/CampaignDetailsViewModel.kt</url>
+          <line>97</line>
+          <option name="timeStamp" value="1363" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/history/activeCampaigns/HistoryActiveCampaignsViewModel.kt</url>
+          <line>60</line>
+          <option name="timeStamp" value="1366" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/history/activeCampaigns/HistoryActiveCampaignsViewModel.kt</url>
+          <line>64</line>
+          <option name="timeStamp" value="1367" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/history/HistoryAdapter.kt</url>
+          <line>78</line>
+          <option name="timeStamp" value="1373" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/history/HistoryAdapter.kt</url>
+          <line>79</line>
+          <option name="timeStamp" value="1374" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/history/activeCampaigns/HistoryActiveCampaignsViewModel.kt</url>
+          <line>55</line>
+          <option name="timeStamp" value="1375" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/history/activeCampaigns/HistoryActiveCampaignsViewModel.kt</url>
+          <line>54</line>
+          <option name="timeStamp" value="1376" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/history/yearlyCampaigns/YearlyCampaignsAdapter.kt</url>
+          <line>42</line>
+          <option name="timeStamp" value="1378" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/history/yearlyCampaigns/YearlyCampaignsAdapter.kt</url>
+          <line>44</line>
+          <option name="timeStamp" value="1380" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/history/pastCampaigns/HistoryPastCampaignsFragment.kt</url>
+          <line>66</line>
+          <option name="timeStamp" value="1381" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/history/pastCampaigns/HistoryPastCampaignsFragment.kt</url>
+          <line>71</line>
+          <option name="timeStamp" value="1382" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/history/yearlyCampaigns/YearlyCampaignsAdapter.kt</url>
+          <line>43</line>
+          <option name="timeStamp" value="1389" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/user/UserInfoApiClient.kt</url>
+          <line>51</line>
+          <option name="timeStamp" value="1401" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/userdomains/DomainsFragment.kt</url>
+          <line>151</line>
+          <option name="timeStamp" value="1510" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/campaigns/details/CampaignDetailsFragment.kt</url>
+          <line>47</line>
+          <option name="timeStamp" value="1571" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/campaigns/details/CampaignDetailsFragment.kt</url>
+          <line>49</line>
+          <option name="timeStamp" value="1573" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/user/UserProfileViewModel.kt</url>
+          <line>73</line>
+          <option name="timeStamp" value="1580" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/auth/TokenRefreshAuthenticator.kt</url>
+          <line>42</line>
+          <option name="timeStamp" value="1582" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/auth/TokenRefreshAuthenticator.kt</url>
+          <line>41</line>
+          <option name="timeStamp" value="1583" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/auth/AppAuthAuthenticator.kt</url>
+          <line>29</line>
+          <option name="timeStamp" value="1584" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/domain/src/main/java/com/orange/domain/usecases/PutUserInfoUseCaseImpl.kt</url>
+          <line>13</line>
+          <option name="timeStamp" value="1590" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/domain/src/main/java/com/orange/domain/usecases/PutUserInfoUseCaseImpl.kt</url>
+          <line>16</line>
+          <option name="timeStamp" value="1591" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/user/UserProfileFragment.kt</url>
+          <line>112</line>
+          <option name="timeStamp" value="1592" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/user/UserProfileFragment.kt</url>
+          <line>119</line>
+          <option name="timeStamp" value="1593" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/user/UserProfileViewModel.kt</url>
+          <line>45</line>
+          <option name="timeStamp" value="1597" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/user/UserProfileViewModel.kt</url>
+          <line>41</line>
+          <option name="timeStamp" value="1598" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/orange/volunteers/auth/TokenRefreshAuthenticator.kt</url>
+          <line>92</line>
+          <properties class="com.orange.volunteers.auth.TokenRefreshAuthenticator" method="getRetryCount" />
+          <option name="timeStamp" value="1230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.openid/appauth/0.7.1/2ebcba9fdc7ef0e9cd1728e8045008aedd4608b5/appauth-0.7.1-sources.jar!/net/openid/appauth/AuthState.java</url>
+          <line>575</line>
+          <option name="timeStamp" value="1262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.openid/appauth/0.7.1/2ebcba9fdc7ef0e9cd1728e8045008aedd4608b5/appauth-0.7.1-sources.jar!/net/openid/appauth/AuthState.java</url>
+          <line>579</line>
+          <option name="timeStamp" value="1263" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.openid/appauth/0.7.1/2ebcba9fdc7ef0e9cd1728e8045008aedd4608b5/appauth-0.7.1-sources.jar!/net/openid/appauth/AuthState.java</url>
+          <line>560</line>
+          <option name="timeStamp" value="1264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.openid/appauth/0.7.1/2ebcba9fdc7ef0e9cd1728e8045008aedd4608b5/appauth-0.7.1-sources.jar!/net/openid/appauth/AuthState.java</url>
+          <line>561</line>
+          <option name="timeStamp" value="1265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.openid/appauth/0.7.1/2ebcba9fdc7ef0e9cd1728e8045008aedd4608b5/appauth-0.7.1-sources.jar!/net/openid/appauth/AuthState.java</url>
+          <line>563</line>
+          <option name="timeStamp" value="1267" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.openid/appauth/0.7.1/2ebcba9fdc7ef0e9cd1728e8045008aedd4608b5/appauth-0.7.1-sources.jar!/net/openid/appauth/AuthState.java</url>
+          <line>625</line>
+          <option name="timeStamp" value="1270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.openid/appauth/0.7.1/2ebcba9fdc7ef0e9cd1728e8045008aedd4608b5/appauth-0.7.1-sources.jar!/net/openid/appauth/AuthState.java</url>
+          <line>562</line>
+          <option name="timeStamp" value="1271" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.openid/appauth/0.7.1/2ebcba9fdc7ef0e9cd1728e8045008aedd4608b5/appauth-0.7.1-sources.jar!/net/openid/appauth/AuthState.java</url>
+          <line>566</line>
+          <option name="timeStamp" value="1272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.openid/appauth/0.7.1/2ebcba9fdc7ef0e9cd1728e8045008aedd4608b5/appauth-0.7.1-sources.jar!/net/openid/appauth/AuthState.java</url>
+          <line>567</line>
+          <option name="timeStamp" value="1273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.openid/appauth/0.7.1/2ebcba9fdc7ef0e9cd1728e8045008aedd4608b5/appauth-0.7.1-sources.jar!/net/openid/appauth/TokenResponse.java</url>
+          <line>204</line>
+          <option name="timeStamp" value="1300" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.openid/appauth/0.7.1/2ebcba9fdc7ef0e9cd1728e8045008aedd4608b5/appauth-0.7.1-sources.jar!/net/openid/appauth/TokenResponse.java</url>
+          <line>205</line>
+          <option name="timeStamp" value="1301" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.openid/appauth/0.7.1/2ebcba9fdc7ef0e9cd1728e8045008aedd4608b5/appauth-0.7.1-sources.jar!/net/openid/appauth/AuthState.java</url>
+          <line>576</line>
+          <option name="timeStamp" value="1326" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.openid/appauth/0.7.1/2ebcba9fdc7ef0e9cd1728e8045008aedd4608b5/appauth-0.7.1-sources.jar!/net/openid/appauth/AuthState.java</url>
+          <line>589</line>
+          <option name="timeStamp" value="1327" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo typeName="com.orange.domain.model.CampaignModel" fieldName="pictures" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="app">
+        <watch expression="((HashMap.Node)((LinkedHashMap)groups).entrySet().toArray()[1]).getValue()" custom="java.util.LinkedHashMap,java.util.HashMap.Node" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
